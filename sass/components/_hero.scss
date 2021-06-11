@@ -1,0 +1,47 @@
+/* section hero */
+
+.background-hero {
+  background-image: linear-gradient(
+      var(--background-hero-gradient),
+      var(--background-hero-gradient)
+    ),
+    url(../images/background/background.jpg);
+  height: 600px;
+  max-width: 1600px;
+
+  text-transform: uppercase;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  background-color: var(--background-hero);
+  border-top: 1px solid var(--header-border);
+
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.background-hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  color: var(--main-title-color);
+
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.background-hero__button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+
+  background-color: var(--accent-text-color);
+  color: var(--main-title-color);
+  cursor: pointer;
+  border-radius: 4px;
+
+  padding: 10px 32px;
+}
